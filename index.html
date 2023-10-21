@@ -5,14 +5,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Open+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <title>Lenni Art</title>
 </head>
 
-<body>
+<body class="body">
   <header class="page-header">
-    <h1 title="главный заголовок страницы" class="page-header__title">Заголовок</h1>
-    <p title="текст" class="page-header__text">Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</p>
+    <a href="index.html" class="page-header__logo">Логотип</a>
+    <nav class="page-header__nav">
+      <a href="#" class="page-header__nav-link">Мероприятия</a>
+      <a href="#" class="page-header__nav-link">Блог</a>
+      <a href="#" class="page-header__nav-link">О нас</a>
+      <a href="#" class="page-header__nav-link">Контакты</a>
+    </nav>
+
+    <a href="#" class="page-header__button"></a>
   </header>
+
+  <main class="main">
+    <div class="home">
+      <header class="main-header main-header__home"></header>
+
+      <section class="offers home__offers"></section>
+      <section class="about home__about"></section>
+      <section class="events home__events"></section>
+      <section class="listing home__listing"></section>
+      <section class="contacts home__contacts"></section>
+
+      <div class="doit home__doit"></div>
+    </div>
+  </main>
+
+  <footer class="page-footer"></footer>
+
 </body>
 
 </html>
