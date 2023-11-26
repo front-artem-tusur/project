@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  @@include('blocks/head.html')
+
+<body class="body">
+
+  @@include('blocks/page-header.html')
+
+  <main class="main">
+    <div class="home">
+      <header class="main-header main-header__home">
+        <h1 class="main-header__title">Арт — пространство</h1>
+        <!-- <picture class="main-header__picture">
+          <img src="src/assets/images/lenni.svg" alt="lenni" class="main-header__img">
+        </picture> -->
+        <svg class="main-header__picture" width="1920" height="325">
+          <use xlink:href="assets/icons/symbols.svg#lenni"></use>
+        </svg>
+        <p class="main-header__text">Для людей, горящих сердцем и делом
+          место для настоящего</p>
+      </header>
+
+      <section class="offers home__offers"></section>
+      <section class="about home__about"></section>
+      <section class="events home__events"></section>
+      <section class="listing home__listing"></section>
+      <section class="contacts home__contacts"></section>
+
+      <div class="doit home__doit"></div>
+    </div>
+  </main>
+
+  @@include('blocks/page-footer.html')
+
+</body>
+
+</html>
